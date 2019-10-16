@@ -2,9 +2,9 @@ package raftboltdb
 
 import (
 	"errors"
+	"github.com/pefish/raft"
 
-	"github.com/boltdb/bolt"
-	"github.com/hashicorp/raft"
+	"github.com/pefish/bolt"
 )
 
 const (
